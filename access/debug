@@ -1,0 +1,3 @@
+echo "Please enter your number of $node:"
+read node
+oc debug no/worker-${node}.sharedocp4upi49.lab.upshift.rdu2.redhat.com  -- chroot /host 
