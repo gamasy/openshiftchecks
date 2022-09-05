@@ -1,0 +1,12 @@
+echo "ACTION:"
+read action
+echo "Resource:"
+read object
+echo "namespace:"
+read namespace
+
+
+
+
+
+oc $action $object -n $namespace
